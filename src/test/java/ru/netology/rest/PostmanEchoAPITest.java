@@ -19,8 +19,7 @@ class PostmanEchoAPITest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data"))
-               // .header("Content-Length", "425")
+                .body("data", equalTo("some value"))
         ;
     }
 }
